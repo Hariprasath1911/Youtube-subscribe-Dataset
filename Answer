@@ -1,0 +1,2 @@
+#1. code
+  df_y[['channel_title','subscriber_count','view_count']].nlargest(5,"subscriber_count")  #it will show top 5 youtube channel from the list
