@@ -1,2 +1,4 @@
 #1. Top Performing Channels:
     Identify the top 5 channels with the highest subscriber_count. Display their channel_title, subscriber_count, and view_count.
+#2. Video Efficiency:
+    Calculate the average views per video for each channel (view_count / video_count). Find the channel with the highest average views per video and display its details.
