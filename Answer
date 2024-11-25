@@ -1,2 +1,5 @@
 #1. code
   df_y[['channel_title','subscriber_count','view_count']].nlargest(5,"subscriber_count")  #it will show top 5 youtube channel from the list
+#2. code
+  df_y["vpv"]=df_y['view_count'] / df_y["video_count"]   #adding colum for view per video
+  df_y.nlargest(1,"vpv")                                 #this will show highest view per video channel details
